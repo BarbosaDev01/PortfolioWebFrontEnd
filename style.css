@@ -148,7 +148,6 @@ a:hover{
 #caixaTexto input{
      height: 200px;
     width: 30%;
-    color: #CFCFCF;
     background-color: #D9D9D9;
       border-radius: 25px;
       overflow: hidden;
@@ -173,4 +172,17 @@ button{
      border-radius: 10px;
      margin-top: 30px;
      color: #CFCFCF;
+}
+.fotoEdados{
+    display: flex;
+}
+.fotoEdados h3{
+        font-family: "Inter";
+        font-size: 20px;
+        color: #fff;
+        padding: 20px;
+}
+
+#contatosDados{
+    margin-top: 50px;
 }
