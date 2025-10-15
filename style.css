@@ -8,9 +8,13 @@ img{
    width: 80px;
    height: 80px; 
 }
-
-
-.navEstilo{
+#perfil{
+width: 100px;
+  aspect-ratio: 1 / 1; 
+  border-radius: 50%;
+  object-fit: cover;
+}
+#navEstilo{
     font-family: "Inter", bold ;
     font-size: 30px;
     justify-content: left;
@@ -18,7 +22,7 @@ img{
     display: flex;
     margin-left: 65%;
 }
-#navEstilo{
+.navest{
     margin: 10px;
 }
 #navCompleto{
@@ -57,37 +61,112 @@ a:hover{
 
 }
 
-#projetos{
-    font-size: 50px;
+#h1{
+    font-size: 40px;
     font-family: "Playfair Display", serif;
     justify-content: center;
     align-items: center;
-    margin-left: 50%;
+    text-align: center;
     color: #fff; 
     font-style: normal;
 }
 
-#tituloProjeto{
+.tituloProjeto{
     color: #FF4D6D;
      font-family: "Playfair Display", serif;
      font-size: 30px;
 
 }
-#dataProjeto{
+.dataProjeto{
     font-size: 30px;
     color: #CFCFCF;
     font-family: "Inter";
 }
 
-#TextoProjeto{
+.TextoProjeto{
     font-size: 20px;
     font-family: "Inter";
     color: #fff;
 }
-#TituloEdata{
+.TituloEdata{
     display: flex;
 }
-#imagemProjeto{
+.imagemProjeto{
     width: 200px;
     height: 100px;
+}
+.tituloSkills{
+    color: #FF4D6D;
+     font-family: "Playfair Display", serif;
+     font-size: 30px;
+     margin-left: 30px;
+}
+.headerHab{
+    display: flex;
+    margin-left:0px;
+    margin-top: 100px;
+}
+.barra-container{
+    margin-top: 20px;
+      width: 30%;
+      background-color: #D9D9D9;
+      border-radius: 25px;
+      overflow: hidden;
+}
+
+.barra {
+
+    height: 25px;
+    background-color: #BA1F1F;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+}
+
+#barra1 { width: 80%; }
+#barra2 { width: 40%; }
+#barra3 { width: 70%; }
+#barra4 { width: 80%; }
+
+ .digitar h3{
+     color: white;
+     font-family: "Inter";
+     font-size: 20px;
+}
+
+.inputEstilo input{
+    height: 35px;
+    width: 30%;
+    color: #CFCFCF;
+    background-color: #D9D9D9;
+      border-radius: 25px;
+      overflow: hidden;
+      font-size: 15px;
+      font-family: "Inter";
+      padding-left: 10px;
+}
+
+#caixaTexto input{
+     height: 200px;
+    width: 30%;
+    color: #CFCFCF;
+    background-color: #D9D9D9;
+      border-radius: 25px;
+      overflow: hidden;
+      font-size: 15px;
+      font-family: "Inter";
+      text-align: left;
+        padding-left: 10px;
+        padding-bottom: 0%;
+}
+
+
+button{
+     width: 30%;
+     background-color: #BA1F1F;
+     font-family: "Inter";
+     height: 50px; 
+     border-radius: 10px;
+     margin-top: 30px;
+     color: #CFCFCF;
 }
