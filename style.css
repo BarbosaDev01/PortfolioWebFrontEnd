@@ -1,0 +1,93 @@
+*{
+    background-color:#181616 ;
+}
+body{
+    margin: 50px;
+}
+img{
+   width: 80px;
+   height: 80px; 
+}
+
+
+.navEstilo{
+    font-family: "Inter", bold ;
+    font-size: 30px;
+    justify-content: left;
+    color: #fff;
+    display: flex;
+    margin-left: 65%;
+}
+#navEstilo{
+    margin: 10px;
+}
+#navCompleto{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    background-color: #FF4D6D;
+}
+#apresentacao{
+    color: #FF4D6D;
+    font-family: "Inter", bold ;
+    font-size: 44px;
+    justify-content: left;
+    margin-bottom: 0%;
+}
+
+#estudo{
+    margin-top: 2%;
+    font-size: 75px;
+    font-family: "Playfair Display", serif;
+    justify-content: left;
+    color: #fff; 
+    font-style: normal;
+}
+#texto{
+    justify-content: left;
+    font-family: "Inter";
+    color: #CFCFCF;
+    font-size: 30px;
+    max-width: 40%;
+
+}
+
+#projetos{
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    color: #fff; 
+    font-style: normal;
+}
+
+#tituloProjeto{
+    color: #FF4D6D;
+     font-family: "Playfair Display", serif;
+     font-size: 30px;
+
+}
+#dataProjeto{
+    font-size: 30px;
+    color: #CFCFCF;
+    font-family: "Inter";
+}
+
+#TextoProjeto{
+    font-size: 20px;
+    font-family: "Inter";
+    color: #fff;
+}
+#TituloEdata{
+    display: flex;
+}
+#imagemProjeto{
+    width: 200px;
+    height: 100px;
+}
