@@ -186,3 +186,8 @@ button{
 #contatosDados{
     margin-top: 50px;
 }
+#map { 
+    height: 180px; 
+    width: 50%;
+}
+   
