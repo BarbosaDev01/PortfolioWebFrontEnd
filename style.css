@@ -1,121 +1,182 @@
-*{
-    background-color:#181616 ;
-}
-body{
-    margin: 50px;
-}
-img{
-   width: 80px;
-   height: 80px; 
-}
-#perfil{
-width: 100px;
-  aspect-ratio: 1 / 1; 
-  border-radius: 50%;
-  object-fit: cover;
-}
-#navEstilo{
-    font-family: "Inter", bold ;
-    font-size: 30px;
-    justify-content: left;
-    color: #fff;
-    display: flex;
-    margin-left: 65%;
-}
-.navest{
-    margin: 10px;
-}
-#navCompleto{
-    display: flex;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #181616;
 }
 
-a{
+body {
+    padding: 3rem 5%;
+    overflow-x: hidden;
+}
+
+a {
     text-decoration: none;
     color: #fff;
 }
-a:hover{
+
+a:hover {
     background-color: #FF4D6D;
-}
-#apresentacao{
-    color: #FF4D6D;
-    font-family: "Inter", bold ;
-    font-size: 44px;
-    justify-content: left;
-    margin-bottom: 0%;
+    transition: background-color 0.3s ease;
 }
 
-#estudo{
-    margin-top: 2%;
-    font-size: 75px;
-    font-family: "Playfair Display", serif;
-    justify-content: left;
-    color: #fff; 
-    font-style: normal;
-}
-#texto{
-    justify-content: left;
-    font-family: "Inter";
-    color: #CFCFCF;
-    font-size: 30px;
-    max-width: 40%;
-
-}
-
-#h1{
-    font-size: 40px;
-    font-family: "Playfair Display", serif;
-    justify-content: center;
+#navCompleto {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
-    color: #fff; 
-    font-style: normal;
+    padding-bottom: 2rem;
 }
 
-.tituloProjeto{
+img {
+    width: 60px;
+    height: 60px;
+}
+
+#perfil {
+    width: 80px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#navEstilo {
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+    display: flex;
+}
+
+.navest {
+    margin: 0 1rem;
+}
+
+#apresentacao {
     color: #FF4D6D;
-     font-family: "Playfair Display", serif;
-     font-size: 30px;
-
+    font-family: "Inter", sans-serif;
+    font-size: 4vw;
+    margin-bottom: 0.5rem;
 }
-.dataProjeto{
-    font-size: 30px;
+
+#estudo {
+    margin-top: 1rem;
+    font-size: 8vw;
+    font-family: "Playfair Display", serif;
+    color: #fff;
+    font-style: normal;
+    line-height: 1.1;
+}
+
+#texto {
+    font-family: "Inter", sans-serif;
     color: #CFCFCF;
-    font-family: "Inter";
+    font-size: 1.2rem;
+    max-width: 90%;
+    margin-top: 1rem;
 }
 
-.TextoProjeto{
-    font-size: 20px;
-    font-family: "Inter";
+@media (max-width: 768px) {
+    body {
+        padding: 1rem 3%;
+    }
+
+    #navCompleto {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #navEstilo {
+        margin-top: 1rem;
+        font-size: 1rem;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    #apresentacao, #estudo {
+        font-size: 6vw;
+    }
+
+    #estudo {
+        font-size: 10vw;
+    }
+    
+    #texto {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    .barra-container {
+        width: 90%;
+    }
+
+    .inputEstilo input, #caixaTexto input, button, #map {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+#h1 {
+    font-size: 2rem;
+    font-family: "Playfair Display", serif;
+    color: #fff;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.TituloEdata {
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloProjeto {
+    color: #FF4D6D;
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+}
+
+.dataProjeto {
+    font-size: 1.2rem;
+    color: #CFCFCF;
+    font-family: "Inter", sans-serif;
+    margin-top: 0.5rem;
+}
+
+.TextoProjeto {
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
     color: #fff;
 }
-.TituloEdata{
+
+.imagemProjeto {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin: 1rem 0;
+}
+
+.headerHab {
     display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    align-items: center;
 }
-.imagemProjeto{
-    width: 200px;
-    height: 100px;
-}
-.tituloSkills{
+
+.tituloSkills {
     color: #FF4D6D;
-     font-family: "Playfair Display", serif;
-     font-size: 30px;
-     margin-left: 30px;
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
 }
-.headerHab{
-    display: flex;
-    margin-left:0px;
-    margin-top: 100px;
-}
-.barra-container{
-    margin-top: 20px;
-      width: 30%;
-      background-color: #D9D9D9;
-      border-radius: 25px;
-      overflow: hidden;
+
+.barra-container {
+    margin-top: 0.5rem;
+    width: 60%;
+    max-width: 400px;
+    background-color: #D9D9D9;
+    border-radius: 25px;
+    overflow: hidden;
 }
 
 .barra {
-
     height: 25px;
     background-color: #BA1F1F;
     text-align: center;
@@ -128,76 +189,81 @@ a:hover{
 #barra3 { width: 70%; }
 #barra4 { width: 80%; }
 
- .digitar h3{
-     color: white;
-     font-family: "Inter";
-     font-size: 20px;
+.digitar h3 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    margin-top: 1rem;
 }
 
-.inputEstilo input{
-    height: 35px;
-    width: 30%;
+.inputEstilo input, #caixaTexto input, button {
+    width: 40%;
+    max-width: 400px;
     background-color: #D9D9D9;
-      border-radius: 25px;
-      overflow: hidden;
-      font-size: 15px;
-      font-family: "Inter";
-      padding-left: 10px;
+    border-radius: 25px;
+    font-family: "Inter", sans-serif;
+    padding-left: 15px;
+    border: none;
 }
 
-#caixaTexto input{
-     height: 200px;
-    width: 30%;
-    background-color: #D9D9D9;
-      border-radius: 25px;
-      overflow: hidden;
-      font-size: 15px;
-      font-family: "Inter";
-      text-align: left;
-        padding-left: 10px;
-        padding-bottom: 0%;
-}
-.inputEstilo input::placeholder {
-  color: #ACAAAA;
-}
-#caixaTexto input::placeholder {
-  color: #ACAAAA;
+.inputEstilo input {
+    height: 40px;
+    font-size: 1rem;
 }
 
-button{
-     width: 30%;
-     background-color: #BA1F1F;
-     font-family: "Inter";
-     height: 50px; 
-     border-radius: 10px;
-     margin-top: 30px;
-     color: #CFCFCF;
+#caixaTexto input {
+    height: 150px;
+    padding-top: 15px;
+    font-size: 1rem;
+    vertical-align: top;
 }
-.fotoEdados{
+
+button {
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    background-color: #BA1F1F;
+    color: #CFCFCF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF4D6D;
+}
+
+#contatosDados {
+    margin-top: 3rem;
+}
+
+.fotoEdados {
     display: flex;
-}
-.fotoEdados h3{
-        font-family: "Inter";
-        font-size: 20px;
-        color: #fff;
-        padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-#contatosDados{
-    margin-top: 50px;
+.fotoEdados h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    padding: 10px;
 }
-#map { 
-    height: 180px; 
-    width: 30%;
+
+.localizacao {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+#map {
+    height: 180px;
+    width: 100%;
+    max-width: 400px;
     border-radius: 20px;
     background-color: #fff;
+}
 
-}
-.localizacao{
-    display: flex;
-    margin-top: 20px;
-}
-#spot{
-    margin-top: 50px;
-    margin-left: 30px;
+#spot {
+    margin-top: 1rem;
+    margin-left: 0;
 }
