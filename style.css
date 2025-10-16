@@ -189,12 +189,15 @@ button{
 #map { 
     height: 180px; 
     width: 30%;
+    border-radius: 20px;
+    background-color: #fff;
+
 }
 .localizacao{
     display: flex;
+    margin-top: 20px;
 }
 #spot{
     margin-top: 50px;
     margin-left: 30px;
 }
-   

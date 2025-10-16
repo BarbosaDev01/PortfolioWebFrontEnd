@@ -13,11 +13,13 @@ buton.onclick = function() {
     email.value = "";
 };
 
-const map = L.map('map').setView([-10.9472, -37.0731], 13); 
+const map = L.map('map').setView([-10.9472, -37.0731], 13); // Coordenadas de Aracaju
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© OpenStreetMap contributors'
+// Stadia Maps - Light
+L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>'
 }).addTo(map);
+
 
 L.marker([-10.9472, -37.0731]).addTo(map)
     .bindPopup('Aracaju, SE')
