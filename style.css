@@ -2,7 +2,7 @@
     background-color:#181616 ;
 }
 .main-container{
-    max-width: 800px;
+    max-width: 1200px;
     min-width: 320px;
     margin: auto;
 }
@@ -11,8 +11,8 @@ img{
    height: 80px; 
 }
 #perfil {
-    width: 70px; 
-    height: 70px; 
+    width: 90px; 
+    height: 90px; 
     aspect-ratio: 1 / 1; 
     border-radius: 50%;
     object-fit: cover;
